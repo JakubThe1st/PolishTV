@@ -4,6 +4,8 @@ Greetings, My Fellow Traveler!
 
 If you've reached this point, you are welcome to join me in my exciting journey to create a fully functional Polish TV experience for free!
 
+Use as many free online resources as you can! Just make sure they are free and Safe!
+
 ## Project Overview
 
 The aim of this project is straightforward: to provide a platform for people who wish to watch Polish TV either while they are abroad or those who prefer not to pay for traditional TV services.
