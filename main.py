@@ -19,9 +19,9 @@ def index():
 def TVP2():
     return render_template("TVP2.html")
 
-@app.route("/TVNHD")
-def TVNHD():
-    return render_template("TVNHD.html")
+@app.route("/Polsat")
+def Polsat():
+    return render_template("Polsat.html")
 
 
 app.run(host='0.0.0.0', port=8080)
