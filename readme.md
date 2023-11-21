@@ -34,6 +34,10 @@ If you're as passionate about this as I am, feel free to join the effort. Your c
 
 6. Create a Pull Request.
 
+## Warning!
+Please don't edit any working files, just add your own ones. You can take a peek in all of them but please don't break them.
+Thank you!
+
 Let's make Polish TV accessible to everyone, everywhere!
 
 Happy coding! 📺🌐

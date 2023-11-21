@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TVN</title>
+    <title>TVP2</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,8 +12,8 @@
    <!-- Include the hls.js library -->
 
 <!-- Create a video element -->
-<video id="video" controls autoplay></video>
-<! -- Change the Links ending in .m3u8 to another one call it that chanel in title -->
+<video id="video" controls></video>
+
 <!-- Use hls.js to create a player and load the .m3u8 file -->
 <script>
   var video = document.getElementById('video');
@@ -28,10 +28,6 @@
     video.addEventListener('loadedmetadata',function() {
       video.play();
     });
-  }
-  var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
-  if (a.indexOf('html') > -1) { //Check of html String in URL.
-    url = url.substring(0, newURL.lastIndexOf("."));
   }
 
 </script>
