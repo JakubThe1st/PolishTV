@@ -8,12 +8,15 @@ If you want to join go to my GitHub Repo @ https://github.com/JakubThe1st/Polish
 
 from flask import Flask
 from flask import render_template
+import webbrowser
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-  return render_template("home.html")
+
+    webbrowser.open('http://google.co.kr', new=2)
+    return render_template("home.html")
 
 @app.route("/TVP2")
 def TVP2():
