@@ -14,8 +14,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-
-    webbrowser.open('http://google.co.kr', new=2)
     return render_template("home.html")
 
 @app.route("/TVP2")
@@ -25,6 +23,10 @@ def TVP2():
 @app.route("/Polsat")
 def Polsat():
     return render_template("Polsat.html")
+
+@app.route("/TVPInfo")
+def TVPinfo():
+    return render_template("tvpinfo.html")
 
 
 app.run(host='0.0.0.0', port=8080)
