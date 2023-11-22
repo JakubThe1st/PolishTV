@@ -24,9 +24,9 @@ def TVP2():
 def Polsat():
     return render_template("Polsat.html")
 
-@app.route("/TVPInfo")
-def TVPinfo():
-    return render_template("tvpinfo.html")
+@app.route("/TVT")
+def TVT():
+    return render_template("tvt.html")
 
 
 app.run(host='0.0.0.0', port=8080)

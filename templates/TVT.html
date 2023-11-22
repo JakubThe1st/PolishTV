@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TVP Info</title>
+    <title>TVT</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,12 +19,12 @@
   var video = document.getElementById('video');
   if(Hls.isSupported()) {
     var hls = new Hls();
-    hls.loadSource('http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpinfo');
+    hls.loadSource('https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8');
     hls.attachMedia(video);
     video.play();
   }
   else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    video.src = 'http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpinfo';
+    video.src = 'https://live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8';
     video.addEventListener('loadedmetadata',function() {
       video.play();
     });
