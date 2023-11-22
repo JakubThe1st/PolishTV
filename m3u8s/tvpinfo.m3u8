@@ -1,0 +1,3 @@
+#EXTM3U8
+#EXTINF:-1 tvg-id="TVPInfo.pl",TVP Info (404p)
+http://hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpinfo
